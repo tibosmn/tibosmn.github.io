@@ -13,7 +13,7 @@ I am a PhD candidate working on software environmental footprint in the [Spirals
 - Software engineering
 - Distributed systems
 
-Feel free to contact me at _thibault [dot] simon [at] orange [dot] com_
+Feel free to contact me at _thibault[dot]simon[at]orange[dot]com_
 
 [Linkedin](https://www.linkedin.com/in/thibault-smn/)
 [Github](https://github.com/tiboSmn)
