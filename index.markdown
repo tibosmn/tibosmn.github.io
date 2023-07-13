@@ -20,7 +20,7 @@ Feel free to contact me at _thibault[dot]simon[at]orange[dot]com_
 
 # Research
 
-T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Impact of Software Life Cycle**, in _International Conference on Information and Communications Technology for Sustainability_, 2023 [[Paper](https://hal.science/hal-04082263/)] [[Slides](assets/ict4s.pdf)]
+T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Impact of Software Life Cycle**, in _International Conference on Information and Communications Technology for Sustainability_, 2023 [[Paper](https://hal.science/hal-04082263/)] [[Slides](assets/ict4s.pdf)] [[Code](https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact)]
 
 T. Simon, P. Rust and R. Rouvoy, **Shaping the hidden environmental impacts of software** at _Green Software and Human Actors: design, code, and behavior - community workshop_, 2023 [[Abstract](assets/gsha.pdf)] [[Slides](assets/shaping_sw_hidden_impacts.pdf)]
 
