@@ -20,9 +20,21 @@ Feel free to contact me at _thibault[dot]simon[at]orange[dot]com_
 
 # Research
 
-T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Impact of Software Life Cycle**, in _International Conference on Information and Communications Technology for Sustainability_, 2023 [[Paper](https://hal.science/hal-04082263/)] [[Slides](assets/ict4s.pdf)] [[Code](https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact)]
+## Conference papers
 
-T. Simon, P. Rust and R. Rouvoy, **Shaping the hidden environmental impacts of software** at _Green Software and Human Actors: design, code, and behavior - community workshop_, 2023 [[Abstract](assets/gsha.pdf)] [[Slides](assets/shaping_sw_hidden_impacts.pdf)]
+E. Guégain, T. Simon, A. Rahier, and R. Rouvoy, **Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2024, Stockhlom [[Paper](https://hal.science/hal-04532041/)]
+
+T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Impact of Software Life Cycle**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2023, Rennes [[Paper](https://hal.science/hal-04082263/)] [[Slides](assets/ict4s.pdf)] [[Code](https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact)]
+
+## Talks
+
+**Enhancing the Embodied Environmental Footprint Estimations of ICT: Leveraging EEIO Techniques** at _Green Days_, 2024, Toulouse [[Slides](assets/greendays_2024.pdf)]
+
+**Vers des applications à plus faible impact environnemental**, Ma thèse en trois minutes (_Jury's prize_) [[Video](https://www.linkedin.com/posts/thibault-smn_jai-gagn%C3%A9-hier-jai-pitch%C3%A9-ma-th%C3%A8se-activity-7136024363186761730-tctu)]
+
+**Table ronde: La méthode _Analyse de Cycle de Vie_, un cadre d'évaluation d'impact reconnu par tous et adaptée au numérique** au GreenTech Forum, 2023, Paris
+
+**Shaping the hidden environmental impacts of software** at _Green Software and Human Actors: design, code, and behavior - community workshop_, 2023, Rennes [[Abstract](assets/gsha.pdf)] [[Slides](assets/shaping_sw_hidden_impacts.pdf)]
 
 # Curriculum Vitae
 
