@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <!-- <link rel="stylesheet" href="dist/reset.css" /> -->
+    <link rel="stylesheet" href="../revealjs/reveal.css" />
+    <link rel="stylesheet" href="../revealjs/quarto.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section style="text-align: left">
+          <h1 style="line-height: normal">
+            Tackling the Environmental Impact of Digital Services
+          </h1>
+          <h2 style="line-height: 0.1">Challenges and solutions</h2>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div style="display: flex">
+            <div style="width: 50%; text-align: left">
+              <p style="color: #131516; font-size: 2em">Thibault SIMON</p>
+              <p style="margin-bottom: 0.1em">
+                <img src="figures/logos/github-mark.svg" height="25em" />
+                <a href="https://github.com/tibosmn">tibosmn</a>
+              </p>
+              <p style="margin-top: 0.5em">
+                <img src="figures/logos/linkedin.png" height="25em" />
+                <a href="https://www.linkedin.com/in/thibault-smn/"
+                  >thibault-smn</a
+                >
+              </p>
+            </div>
+            <div style="width: 100%; text-align: right; align-self: flex-end">
+              <img src="figures/logos/logo.svg" height="75em" />
+              <img
+                src="figures/logos/inr_logo_rouge.svg"
+                height="35em"
+                style="margin-left: 1em"
+              />
+              <!-- <img
+              src="figures/logos/logo_cnrs.svg"
+              height="35em"
+              style="margin-left: 1em"
+            />
+            <img
+              src="figures/logos/logo_SPIRALS.svg"
+              height="35em"
+              style="margin-left: 1em"
+            /> -->
+              <img
+                src="figures/logos/logo_ulille.png"
+                height="55em"
+                style="margin-left: 1em"
+              />
+              <img
+                src="figures/logos/boavizta.svg"
+                height="35em"
+                style="margin-left: 1em"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h1>Plan</h1>
+
+          <div style="text-align: left; margin-left: 10em">
+            <p>1. The ICT's sector growth</p>
+            <p>2. ICT's carbon footprint</p>
+            <p>3. ICT's mineral footprint</p>
+            <p>4. Digital services Life Cycle Assessment</p>
+            <p>5. The lack of reference data</p>
+            <p>6. Boavizta</p>
+          </div>
+        </section>
+
+        <section data-auto-animate>
+          <h1 class="r-fit-text">The ICT's sector growth</h1>
+          <p style="text-align: right">
+            <i> ICT: Information and Communications Technology </i>
+          </p>
+          <br />
+          <br />
+        </section>
+
+        <section data-auto-animate>
+          <h1>The ICT's sector growth</h1>
+          <section>
+            <center>
+              <img src="figures/pacman_world.svg" height="350em" />
+              <br />
+              <p>
+                <a
+                  href="https://www.wsj.com/articles/SB10001424053111903480904576512250915629460"
+                  ><i>Why Software Is Eating The World</i> (Marc Andreessen,
+                  WSJ, 2011)</a
+                >
+              </p>
+            </center>
+          </section>
+          <section data-auto-animate>
+            <center>
+              <img src="figures/pong.gif" width="auto" height="450em" />
+              <br />
+              <i>Pong, 1972</i>
+            </center>
+            <br />
+            <br />
+            <h2>From this...</h2>
+          </section>
+          <section data-auto-animate>
+            <h2>...to this...</h2>
+            <center>
+              <img src="figures/chromium.png" height="350em" />
+              <p>(35 millions lines of code)</p>
+              <aside>
+                <i>Source:</i>
+                <a href="https://chromium.googlesource.com/chromium/src"
+                  >https://chromium.googlesource.com/chromium/src</a
+                >
+              </aside>
+            </center>
+          </section>
+          <section data-auto-animate>
+            <h2>...over billions of users worldwide.</h2>
+            <center>
+              <br />
+              <img src="figures/facebook_world.jpg" height="300em" />
+
+              <p>
+                <img src="figures/meta_log.svg" height="25em" />
+                : 2.99 billion monthly active users
+              </p>
+              <aside>
+                Sources:
+                <a
+                  href="https://investor.fb.com/investor-news/press-release-details/2023/Meta-Reports-First-Quarter-2023-Results/default.aspx"
+                  >First Quarter 2023 Financial Highlights (Meta)</a
+                >,
+                <a href="https://www.facebook.com/notes/10158791468612200/"
+                  ><i>Visualizing Friendships</i> (Facebook engineering),
+                  2010</a
+                >
+              </aside>
+            </center>
+          </section>
+          <section>
+            <img src="figures/cisco.avif" height="300em" />
+            <aside>
+              Source:
+              <a
+                href="https://www.cisco.com/c/en/us/solutions/collateral/executive-perspectives/annual-internet-report/white-paper-c11-741490.html"
+                >Cisco Annual Internet Report, 2018-2023</a
+              >
+            </aside>
+          </section>
+          <section data-auto-animate>
+            <h2>Software is eating the car</h2>
+            <img src="figures/tesla.jpg" height="400" />
+            <aside>
+              <i>Source: </i>
+              <a href="https://www.apple.com/apple-vision-pro/"
+                >Apple Vision Pro</a
+              >
+            </aside>
+          </section>
+          <section data-auto-animate>
+            <h2>What's next?</h2>
+          </section>
+          <section data-auto-animate>
+            <h2>Will AR/VR eat the world ?</h2>
+            <img src="figures/visionpro.jpg" height="400" />
+            <aside>
+              <i>Source: </i>
+              <a href="https://www.apple.com/apple-vision-pro/"
+                >Apple Vision Pro</a
+              >
+            </aside>
+          </section>
+          <section data-auto-animate>
+            <h2>Will AI eat the world ?</h2>
+            <img src="figures/chatgpt.png" height="400" />
+            <aside>
+              <i>Source: </i>
+              <a href="https://openai.com/chatgpt/">OpenAI</a>
+            </aside>
+          </section>
+          <!-- <section data-auto-animate>
+            <h2>Will AI eat the world ?</h2>
+            <img src="figures/humane.webp" height="400" />
+            <aside>
+              <i>Source: </i>
+              <a href="https://humane.com/">Humane</a>
+            </aside>
+          </section> -->
+        </section>
+
+        <section data-auto-animate>
+          <h1 class="r-fit-text">ICT's carbon footprint</h1>
+          <p style="text-align: end">Is this growth decoupled?</p>
+          <!-- <h1>The ICT's sector growth</h1> -->
+        </section>
+
+        <section data-auto-animate>
+          <h1>ICT's carbon footprint</h1>
+          <!-- <h1>The ICT's sector growth</h1> -->
+          <section data-auto-animate>
+            <h2>Between 2.1% and 3.9% of global GHG emissions</h2>
+            <img src="figures/carbon2.jpg" height="350em" />
+
+            <aside>
+              <i>Source: </i>C. Freitag <i>et al.</i>, "The real climate and
+              transformative impact of ICT: A critique of estimates, trends, and
+              regulations", <i>Patterns</i>, vol. 2, no. 9, p. 100340, Sep.
+              2021.
+            </aside>
+            <aside class="notes">
+              <p>
+                Current GHG emission trajectory not in line with IPCC
+                recommendations
+              </p>
+            </aside>
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex">
+              <div style="width: 100%; height: 100%">
+                <img src="figures/ipcc_path.png" height="350em" />
+                <p>The global objectives</p>
+              </div>
+              <div
+                class="fragment"
+                style="width: 100%; display: inline-block; align-self: flex-end"
+              >
+                <img src="figures/freitag_projection.png" width="450em" />
+
+                <br />
+                <br />
+                <br />
+                <p>The ICT trajectories</p>
+              </div>
+            </div>
+            <div style="display: flex">
+              <div style="width: 100%"></div>
+              <div style="width: 100%"></div>
+            </div>
+            <aside>
+              <i>Sources:</i>
+              Figure SPM.4. IPCC, 2022:
+              <a
+                href="https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf"
+                >Summary for Policymakers</a
+              >
+              and C. Freitag <i>et al.</i>
+            </aside>
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex; align-items: stretch">
+              <div>
+                <img src="figures/freitag.jpg" height="350em" />
+              </div>
+              <div style="font-size: 1.5em; align-self: center">
+                <i
+                  >« If the ICT sector should decrease its emissions in line
+                  with other parts of the economy, it would have to: reduce its
+                  CO2 emissions by
+                  <b
+                    >42% by 2030, 72% by 2040 and 91% by 2050 and be net zero by
+                    2050
+                  </b>
+                  »</i
+                >
+              </div>
+            </div>
+            <aside>
+              <i>Source: </i>
+              C. Freitag <i>et al.</i>, "The real climate and transformative
+              impact of ICT: A critique of estimates, trends, and regulations",
+              <i>Patterns</i>, vol. 2, no. 9, p. 100340, Sep. 2021.
+            </aside>
+            <aside class="notes">
+              <p>
+                Current GHG emission trajectory not in line with IPCC
+                recommendations
+              </p>
+            </aside>
+          </section>
+          <section>
+            <h2>Latest news</h2>
+            <div style="display: flex; align-items: stretch">
+              <div>
+                <img src="figures/microsoft.png" height="350em" />
+                Carbon
+              </div>
+              <div style="width: 80%" class="fragment">
+                <img src="figures/microsoft_water.png" height="350em" />
+                <br />
+                <br />
+                Total water consumption
+              </div>
+            </div>
+
+            <aside>
+              <i>Source: </i>2024 Environmental Sustainability Report (<a
+                href="https://www.microsoft.com/en-us/corporate-responsibility/sustainability/report"
+                >Microsoft</a
+              >)
+            </aside>
+          </section>
+        </section>
+
+        <section data-auto-animate>
+          <h1 class="r-fit-text">ICT's mineral footprint</h1>
+          <p style="text-align: end"><i>Is the cloud really immaterial?</i></p>
+          <!-- <h1>The ICT's sector growth</h1> -->
+        </section>
+
+        <section data-auto-animate>
+          <h1>ICT's mineral footprint</h1>
+          <section data-auto-animate>
+            <center>
+              <img src="figures/truck.png" height="350em" />
+
+              <p>
+                <i
+                  >« Mineral extraction has contributed to environmental
+                  degradation, population displacement, violent conﬂicts and
+                  human rights violations » <sup>1</sup></i
+                >
+              </p>
+
+              <aside>
+                [1]
+                <a
+                  href="https://www.undp.org/publications/mapping-mining-sdgs-atlas"
+                  ><i>Mapping Mining to the SDGs: An Atlas</i>, UN, 2016</a
+                >
+              </aside>
+            </center>
+          </section>
+
+          <section data-auto-animate>
+            <section data-auto-animate>
+              <h2>Is recycling the solution?</h2>
+              <center>
+                <img src="figures/fairphone.png" height="350em" />
+              </center>
+              <p>An expensive <i>ratatouille</i></p>
+              <aside>
+                <i>Source:</i>
+                <a href="https://www.fairphone.com/en/impact/fair-materials/"
+                  >Fairphone</a
+                >
+              </aside>
+            </section>
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex; align-items: stretch">
+              <div>
+                <img src="figures/real_recycling.jpg" width="500em" />
+                <p style="font-size: 0.9em"><i>Credit: Muntaka Chasant</i></p>
+              </div>
+              <div style="font-size: 1.5em; align-self: center">
+                <i>
+                  « The cumulative world generation of e-waste rose from
+                  <b>44.4Mt in 2014 to 62 in 2022</b> [...] while only 13.8 Mt
+                  were officially documented as
+                  <b>properly collected and recycled</b> »<sup>1</sup></i
+                >
+              </div>
+            </div>
+            <!-- <p style="font-size: 0.65em">
+                9.2 Mt of e-waste was generated between
+                2014 and 2019, while only 1.8 Mt was officially documented as
+                properly collected and recycled<sup>1</sup>
+              </p> -->
+
+            <aside>
+              [1] Cornelis P.Baldé <i>et al.</i>,
+              <a
+                href="https://ewastemonitor.info/wp-content/uploads/2024/03/GEM_2024_18-03_web_page_per_page_web.pdf"
+                >"The global e-waste monitor 2024"</a
+              >,<i>
+                United Nations University (UNU), International Telecommunication
+                Union (ITU) & International Solid Waste Association (ISWA),
+                Bonn/Geneva/Rotterdam,</i
+              >
+            </aside>
+          </section>
+
+          <section data-auto-animate>
+            <h2>Another pressing issue: the energy transitions</h2>
+            <img src="figures/fossiel_fuel.jpg" height="400em" />
+          </section>
+
+          <section data-auto-animate>
+            <h2>An upcoming race...</h2>
+            <img src="figures/iea_minerals.png" height="400em" width="auto" />
+
+            <aside>
+              <i>Source:</i>
+              <a
+                href="https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions"
+                >The Role of Critical Minerals in Clean Energy Transitions, IEA
+                (2021)</a
+              >
+            </aside>
+          </section>
+
+          <section data-auto-animate>
+            <h2>...for <i>critical</i> minerals</h2>
+            <img
+              src="figures/elements_criticality.svg"
+              height="auto"
+              width="850em"
+            />
+            <aside>
+              <i>Source:</i> S. Cerf, A. Luxey-Bitri, C. Quinton, R. Rouvoy, T.
+              Simon, C. Truffert (2024). Untangling the Critical Minerals Knot:
+              when ICT hits the Energy Transitions.
+              <b>submitted to </b>
+              <i
+                >Special Issue on Sustainability and Computing, Communitions of
+                the ACM (CACM)</i
+              >
+            </aside>
+          </section>
+
+          <!-- <section data-auto-animate>
+            <center>
+              <img
+                src="figures/elements_origin.svg"
+                height="auto"
+                width="850em"
+              />
+              <p>
+                Highly relying on <i>by-products</i> (generating less than 1% of
+                a mine's revenue)
+              </p>
+            </center>
+            <aside>
+              <i>Source:</i> S. Cerf, A. Luxey-Bitri, C. Quinton, R. Rouvoy, T.
+              Simon, C. Truffert (2024). Untangling the Critical Minerals Knot:
+              when ICT hits the Energy Transitions.
+              <b>submitted to </b>
+              <i
+                >Special Issue on Sustainability and Computing, Communitions of
+                the ACM (CACM)</i
+              >
+            </aside>
+          </section> -->
+        </section>
+
+        <section data-auto-animate>
+          <h1 class="r-fit-text">Digital services LCA (theory)</h1>
+
+          <p style="text-align: end">
+            A <i>digital service</i> refers to all the human, software and
+            hardware resources required to provide a service.
+          </p>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Digital services LCA (theory)</h1>
+
+          <section data-auto-animate>
+            <h2>Life Cycle Asessment for resources used</h2>
+            <img src="figures/lca.svg" height="350em" width="auto" />
+            <aside>
+              <a href="https://www.iso.org/standard/37456.html"
+                >ISO 14040:2006: Environmental management - Life cycle
+                assessment - Principles and framework</a
+              >
+            </aside>
+          </section>
+
+          <section>
+            <p><i>FU: Make a bank transfer each week for a year</i></p>
+            <br />
+            <div style="display: flex">
+              <div class="fragment" style="width: 100%">
+                <img src="figures/smartphone.svg" height="100em" />
+                <p>User's device</p>
+              </div>
+              <div class="fragment" style="width: 100%">
+                <img src="figures/network.svg" height="100em" />
+                <p>Networks</p>
+              </div>
+              <div class="fragment" style="width: 100%">
+                <img src="figures/database.svg" height="100em" />
+                <p>Data-centres</p>
+              </div>
+            </div>
+            <br />
+            <br />
+            <h2 class="fragment">
+              Key difficulties: <b>allocation</b>
+              <b class="fragment"> and FU definition</b>
+            </h2>
+            <aside>
+              <a href="https://www.itu.int/rec/T-REC-L.1410">
+                ITU-T L.410: Methodology for environmental life cycle
+                assessments of information and communication technology goods,
+                networks and services</a
+              >
+            </aside>
+          </section>
+        </section>
+
+        <section data-auto-animate>
+          <h1 class="r-fit-text">Digital services LCA <i>(reality)</i></h1>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Digital services LCA <i>(reality)</i></h1>
+          <section data-auto-animate>
+            <h2>A focus on energy</h2>
+
+            <img
+              src="figures/electricity_map.png"
+              height="350em"
+              width="auto"
+            />
+            <aside>
+              <i>Source: </i>
+              <a href="https://app.electricitymaps.com/map">Electricity Maps</a>
+            </aside>
+          </section>
+
+          <section data-auto-animate>
+            <h2>without the embodied footprint</h2>
+            <div style="display: flex; align-items: stretch">
+              <div style="align-self: center">
+                <img src="figures/wafer.jpg" width="400em" />
+                <center>
+                  <aside style="text-align: center; margin-top: 0">
+                    <a
+                      href="https://www.footwashermedia.com/newtechpress/tag/semiconductor+manufacturing"
+                      >Source</a
+                    >
+                  </aside>
+                </center>
+              </div>
+              <div style="align-self: center">
+                <p>
+                  78 % of consumers devices' carbon footprint comes from their
+                  manufacturing
+                </p>
+              </div>
+            </div>
+            <aside>
+              <i>Source:</i>
+              ADEME-Arcep study: assessment of the digital environmental
+              footprint in France in 2020, 2030 and 2050
+            </aside>
+          </section>
+
+          <section data-auto-animate>
+            <h2>with a carbon-tunnel vision</h2>
+            <img src="figures/tunnel_vision.png" height="350em" />
+            <aside>
+              <i>Source: </i> A. Deivanayagam, R. Osborne(2023). Breaking free
+              from tunnel vision for climate change and health. PLOS Glob Public
+              Health. 2023 Mar 9. doi: 10.1371/journal.pgph.0001684.
+            </aside>
+          </section>
+        </section>
+
+        <section data-auto-animate>
+          <h1 class="r-fit-text">The lack of reference data</h1>
+          <p style="text-align: right">
+            <i>When comparing apples and oranges</i>
+          </p>
+        </section>
+
+        <section data-auto-animate>
+          <h1>The lack of reference data</h1>
+
+          <section data-auto-animate>
+            <h2 style="text-align: left">Some reasons:</h2>
+            <div style="text-align: left; margin-left: 10em">
+              <p>A <i>relatively</i> recent sector</p>
+              <p>Systems and products that evolve quickly</p>
+              <p>Complex and distributed systems</p>
+              <p>Business secrecy ($$$$)</p>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <h2>Example: inner workings of a data-center</h2>
+            <img src="figures/dc.svg" width="100%" height="auto" />
+            <aside>
+              By
+              <a
+                href="https://gauthierroussilhe.com/en/resources/setting-up-a-data-centre"
+                >Gauthier Roussilhe</a
+              >, licensed under
+              <a href="https://creativecommons.org/licenses/by/4.0/"
+                >CC BY 4.0</a
+              >
+              / Cropped from original
+            </aside>
+          </section>
+          <section data-auto-animate>
+            <img src="figures/cloud_diff.png" height="400em" />
+
+            <h3>GWP calculators of the 3 biggest cloud-providers</h3>
+            <aside>
+              <i>Source: </i>T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul,
+              S. Rince, R. Rouvoy BoaviztAPI: A Grounded Model to Assess the
+              Environmental Impacts of Cloud Services
+              <b>submitted to</b> HotCarbon'24
+            </aside>
+          </section>
+        </section>
+
+        <section data-auto-animate>
+          <div style="display: flex">
+            <div style="width: 100%; text-align: left">
+              <h2>The problems</h2>
+              <ul>
+                <li>A sector still unaware of its environmental footprint</li>
+                <li>Which lacks reliable, comparable reference data</li>
+                <li>Resulting in high margins of error</li>
+                <li>
+                  Current studies often narrowed to carbon footprint and usage
+                  phase
+                </li>
+              </ul>
+            </div>
+            <div style="width: 100%" class="fragment">
+              <h2>The solution</h2>
+              <p>Open-data</p>
+              <p>Open-methodologies</p>
+              <img
+                class="fragment"
+                src="figures/logos/boavizta.svg"
+                width="50%"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section data-auto-animate>
+          <div style="display: flex; align-items: stretch">
+            <div style="width: 50%; text-align: left">
+              <p>250 members, initiated in 2019</p>
+              <p>
+                Working on the assessment of the environmental impacts of
+                digital technologies
+              </p>
+              <p>
+                Create <b>commons</b> around evaluation methodologies, impact
+                data repositories and evaluation tools
+              </p>
+            </div>
+            <div style="width: 40%; align-self: center; text-align: right">
+              <img src="figures/logos/boavizta.svg" />
+            </div>
+          </div>
+          <p>
+            <a href="https://www.boavizta.org/">https://www.boavizta.org/</a>
+          </p>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Boavizta</h1>
+          <section data-auto-animate>
+            <img src="figures/boavizta_tools.png" height="500em" />
+            <p><i>Tools landscape</i></p>
+          </section>
+
+          <section data-auto-animate>
+            <h2>
+              <i>Bottom-up modeling of a server's impacts</i>
+            </h2>
+            <img src="figures/datavizta_server.png" width="100%" />
+
+            <p>
+              <a href="https://datavizta.boavizta.org/serversimpact"
+                >https://datavizta.boavizta.org/serversimpact</a
+              >
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <h2>
+              <i>Modeling of cloud instances</i>
+            </h2>
+            <img src="figures/datavizta_cloud.png" width="100%" />
+
+            <p>
+              <a href="https://datavizta.boavizta.org/cloudimpact"
+                >https://datavizta.boavizta.org/cloudimpact</a
+              >
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <h2>
+              <i>Database of devices</i>
+            </h2>
+            <img src="figures/datavizta_devices.png" width="100%" />
+
+            <p>
+              <a href="https://datavizta.boavizta.org/terminalimpact"
+                >https://datavizta.boavizta.org/terminalimpact</a
+              >
+            </p>
+          </section>
+
+          <section data-auto-animate>
+            <p>Sustainable IT: How to get your hierarchy on board?</p>
+            <img src="figures/boavizta_report.png" height="350em" />
+            <p>
+              <a
+                href="https://boavizta.org/blog/numerique-responsable-convaincre-hierarchie"
+                >Link (in french)</a
+              >
+            </p>
+          </section>
+        </section>
+
+        <section data-auto-animate>
+          <h2>Conclusion</h2>
+
+          <p>
+            The ICT sectors' still lacks suitable tools and methodology to
+            holistically address its environmental footprint
+          </p>
+          <p>Boavizta aims at producing such open-tools and methodologies</p>
+          <br />
+          <p>
+            If you're interested, you're welcome to join:
+            <a href="https://boavizta.org/en/join"
+              >https://boavizta.org/en/join</a
+            >
+          </p>
+          <br />
+          <br />
+          <!-- <center>
+            <small>
+              <i> Familiar with EEIO? Shoot me an email:</i>
+              <a href="thibault.simon@orange.com"
+                >thibault.simon@orange.com</a
+              ></small
+            >
+          </center> -->
+        </section>
+        <section>
+          <h1 class="r-fit-text">Thank you for your attention!</h1>
+
+          <!-- <p style="text-align: left">
+            More on incertitudes in digital services LCAs:
+          </p>
+          <p style="text-align: left">Human costs in digital services LCAs:</p> -->
+          <p style="text-align: right; margin-bottom: 0">Thibault SIMON</p>
+          <p style="text-align: right; margin-top: 0">
+            <a href="thibault.simon@orange.com">thibault.simon@orange.com</a>
+          </p>
+        </section>
+
+        <!-- <section data-auto-animate>
+          <h1>Backup slides</h1>
+
+          <slides>
+            <h2>
+              What's the differnence between BoaviztAPI and Cloud Carbon
+              Footprint ?
+            </h2>
+            <p>
+              See
+              <a
+                href="https://github.com/cloud-carbon-footprint/cloud-carbon-footprint/discussions/1040"
+                >this Github issue</a
+              >
+            </p>
+            <h2>
+              What's the differnence between BoaviztAPI and Cloud Carbon
+              Footprint ?
+            </h2>
+          </slides>
+        </section> -->
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        slideNumber: "c/t",
+        hash: true,
+        center: false,
+        history: true,
+        plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
+        slideNumber: true,
+        autoAnimate: true,
+        autoAnimateEasing: "ease",
+        autoAnimateDuration: 1.0,
+        autoAnimateUnmatched: true,
+        transition: "slide",
+      });
+    </script>
+  </body>
+</html>
