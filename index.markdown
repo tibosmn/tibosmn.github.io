@@ -28,7 +28,7 @@ T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Imp
 
 ## Talks
 
-**Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the _European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_, 2024, Darmstadt (Germant) [[Slides](presentations/esslab_seminar/index.html)]
+**Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the _European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_, 2024, Darmstadt (Germany) [[Slides](presentations/esslab_seminar/index.html)]
 
 **Enhancing the Embodied Environmental Footprint Estimations of ICT: Leveraging EEIO Techniques** at _Green Days_, 2024, Toulouse [[Slides](assets/greendays_2024.pdf)]
 
