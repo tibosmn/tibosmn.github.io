@@ -10,10 +10,11 @@ I am a PhD candidate working on software environmental footprint in the [Spirals
 - Green IT
 - Sustainable ICT
 - Life-cycle Assessment
+- Input/Output analysis
 - Software engineering
 - Distributed systems
 
-Feel free to contact me at _thibault[dot]simon[at]orange[dot]com_
+Feel free to reach me at _contact[at]thibaultsimon[dot]fr_
 
 [Linkedin](https://www.linkedin.com/in/thibault-smn/)
 [Github](https://github.com/tiboSmn)
