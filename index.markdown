@@ -5,7 +5,7 @@
 layout: home
 ---
 
-I am a PhD candidate working on software environmental footprint in the [Spirals](https://team.inria.fr/spirals/) team at Inria Lille and Orange Innovation in Rennes. I am particularly interested in these subjects:
+I am a PhD candidate working on software environmental footprint in the [Spirals](https://team.inria.fr/spirals/) team at Inria Lille and Orange Innovation in Rennes. I'm also a member of [Boavizta](https://boavizta.org/en). I am particularly interested in these subjects:
 
 - Green IT
 - Sustainable ICT
