@@ -21,13 +21,15 @@ Feel free to reach me at _contact[at]thibaultsimon[dot]fr_
 
 # Research
 
-## Conference papers
+## Papers
 
 E. Guégain, T. Simon, A. Rahier, and R. Rouvoy, **Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2024, Stockhlom [[Paper](https://hal.science/hal-04532041/)]
 
 T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Impact of Software Life Cycle**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2023, Rennes [[Paper](https://hal.science/hal-04082263/)] [[Slides](assets/ict4s.pdf)] [[Code](https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact)]
 
 ## Talks
+
+**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at _The True Cost of ICT: From Materiality to Techno-Solutionism_, 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)]
 
 **Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the _European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_, 2024, Darmstadt (Germany) [[Slides](presentations/esslab_seminar/index.html)]
 
