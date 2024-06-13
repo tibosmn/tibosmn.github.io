@@ -29,17 +29,17 @@ T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Imp
 
 ## Talks
 
-**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at _The True Cost of ICT: From Materiality to Techno-Solutionism_, 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)]
+**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at [_The True Cost of ICT: From Materiality to Techno-Solutionism_](https://ict4s24-tcict.github.io), 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)]
 
-**Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the _European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_, 2024, Darmstadt (Germany) [[Slides](presentations/esslab_seminar/index.html)]
+**Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the [_European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_](https://esslab-2024.sciencesconf.org/program), 2024, Darmstadt (Germany) [[Slides](presentations/esslab_seminar/index.html)]
 
-**Enhancing the Embodied Environmental Footprint Estimations of ICT: Leveraging EEIO Techniques** at _Green Days_, 2024, Toulouse [[Slides](assets/greendays_2024.pdf)]
+**Enhancing the Embodied Environmental Footprint Estimations of ICT: Leveraging EEIO Techniques** at [_Green Days_](https://perso.ens-lyon.fr/laurent.lefevre/greendaystoulouse2024/programme_greendays2024.html), 2024, Toulouse [[Slides](assets/greendays_2024.pdf)]
 
 **Vers des applications à plus faible impact environnemental**, Ma thèse en trois minutes (_Jury's prize_) [[Video](https://www.linkedin.com/posts/thibault-smn_jai-gagn%C3%A9-hier-jai-pitch%C3%A9-ma-th%C3%A8se-activity-7136024363186761730-tctu)]
 
 **Table ronde: La méthode _Analyse de Cycle de Vie_, un cadre d'évaluation d'impact reconnu par tous et adaptée au numérique** au GreenTech Forum, 2023, Paris
 
-**Shaping the hidden environmental impacts of software** at _Green Software and Human Actors: design, code, and behavior - community workshop_, 2023, Rennes [[Abstract](assets/gsha.pdf)] [[Slides](assets/shaping_sw_hidden_impacts.pdf)]
+**Shaping the hidden environmental impacts of software** at [_Green Software and Human Actors: design, code, and behavior - community workshop_](https://gsha2023.sciencesconf.org/), 2023, Rennes [[Abstract](assets/gsha.pdf)] [[Slides](assets/shaping_sw_hidden_impacts.pdf)]
 
 # Curriculum Vitae
 
