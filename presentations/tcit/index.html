@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>T. Simon</title>
+
+    <!-- <link rel="stylesheet" href="dist/reset.css" /> -->
+    <link rel="stylesheet" href="../revealjs/reveal.css" />
+    <link rel="stylesheet" href="../revealjs/theme.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section style="text-align: left">
+          <h1 style="line-height: normal">From Bottom-Up to Top-Down</h1>
+          <h2>Rethinking Approaches to Assessing ICT's Mineral Dependencies</h2>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div style="display: flex">
+            <div style="width: 50%; text-align: left">
+              <p style="color: #131516; font-size: 2em">Thibault SIMON</p>
+              <p style="margin-bottom: 0.1em">
+                <img src="../logos/github-mark.svg" height="25em" />
+                <a href="https://github.com/tibosmn">tibosmn</a>
+              </p>
+              <p style="margin-top: 0.5em">
+                <img src="../logos/linkedin.png" height="25em" />
+                <a href="https://www.linkedin.com/in/thibault-smn/"
+                  >thibault-smn</a
+                >
+              </p>
+            </div>
+            <div style="width: 100%; text-align: right; align-self: flex-end">
+              <img src="../logos/logo.svg" height="75em" />
+              <img
+                src="../logos/inr_logo_rouge.svg"
+                height="35em"
+                style="margin-left: 1em"
+              />
+              <!-- <img
+                src="../logos/logo_cnrs.svg"
+                height="35em"
+                style="margin-left: 1em"
+              /> -->
+              <img
+                src="../logos/logo_SPIRALS.svg"
+                height="35em"
+                style="margin-left: 1em"
+              />
+              <img
+                src="../logos/logo_ulille.png"
+                height="55em"
+                style="margin-left: 1em"
+              />
+              <!-- <img
+                src="../logos/boavizta.svg"
+                height="35em"
+                style="margin-left: 1em"
+              /> -->
+            </div>
+          </div>
+        </section>
+
+        <section data-auto-animate>
+          <!-- <h2>Is recycling the solution?</h2> -->
+          <h1>An expensive <i>ratatouille</i></h1>
+          <center>
+            <img src="figures/fairphone.png" height="350em" />
+          </center>
+
+          <aside>
+            <i>Source:</i>
+            <a href="https://www.fairphone.com/en/impact/fair-materials/"
+              >Fairphone</a
+            >
+          </aside>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Within a growing sector</h1>
+          <center>
+            <img src="figures/freitag_projection.png" height="350em" />
+          </center>
+          <aside>
+            <!-- <i>Source: </i>
+            <br> -->
+            C. Freitag <i>et al.</i>, "The real climate and transformative
+            impact of ICT: A critique of estimates, trends, and regulations",
+            <i>Patterns</i>, vol. 2, no. 9, p. 100340, Sep. 2021.
+          </aside>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Relying on similar minerals as the energy transitions</h1>
+
+          <img src="figures/iea_minerals.png" height="400em" width="auto" />
+
+          <br />
+          <h2 class="fragment">
+            Sould limits be put in place on the ICT sector?
+          </h2>
+          <aside>
+            <i>Source:</i>
+            <a
+              href="https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions"
+              >The Role of Critical Minerals in Clean Energy Transitions, IEA
+              (2021)</a
+            >
+          </aside>
+        </section>
+
+        <section data-auto-animate>
+          <h2>Sould limits be put in place on the ICT sector?</h2>
+          <p>
+            We need to understand the intricate relationship betwen the ICT and
+            mineral industries
+          </p>
+        </section>
+
+        <section>
+          <p>
+            Current studies on the sector's environmental footprint rely on the
+            combination of bottom-up LCA data and top-down market data
+          </p>
+          <p>
+            Propagating their shortcomings, covering solely GHG emissions, and
+            notably the lack of detailed mineral metrics
+          </p>
+          <p>
+            When mineral depletion is considered, it is typically measured
+            through the Abiotic resource Depletion Potential (ADP), which
+            aggregates various minerals into a single category, thus hindering
+            detailed studies of individual minerals (e.g. their criticality,
+            grades, recycling, etc.).
+          </p>
+
+          <b>Abiotic resource depletion potential (ADPFe)</b>
+        </section>
+
+        <section>CRADLE TO GRAVE</section>
+
+        <section>
+          <h1>Environmentally extended input-output analysis (EEIO)</h1>
+        </section>
+
+        <section>
+          <h3>Multi-Regional Input Output modeling (MRIO)</h3>
+          <center>
+            <img src="figures/z_matrix.png" />
+          </center>
+          <center>
+            <a
+              href="https://medium.com/clarityai-engineering/understanding-the-carbon-footprint-of-economic-systems-with-pymrio-an-eeio-model-based-approach-168402531c8b"
+              >Source</a
+            >
+          </center>
+        </section>
+
+        <section>
+          <h3>Environmentally extended Input Output (EEIO)</h3>
+          <center>
+            <img src="figures/f_matrix.png" />
+          </center>
+          <center>
+            <a
+              href="https://medium.com/clarityai-engineering/understanding-the-carbon-footprint-of-economic-systems-with-pymrio-an-eeio-model-based-approach-168402531c8b"
+              >Source</a
+            >
+          </center>
+          <!-- <img src="figures/exiobase.png" /><sup>1</sup>
+          <small>
+            [1] Stadler, K., et al. "EXIOBASE 3: Developing a Time Series of
+            Detailed Environmentally Extended Multi-Regional Input-Output
+            Tables. ". *Journal of Industrial Ecology*, 22: 502-515, 2018.
+            https://doi.org/10.1111/jiec.12715
+          </small> -->
+        </section>
+
+        <section>
+          <h2>Leontief modeling</h2>
+
+          <center>
+            <img src="figures/leontief.png" height="350em" />
+          </center>
+
+          <small
+            >Charpentier, F. (2022). An Impact Inheritance Approach to the
+            Estimation of the Carbon Footprints of Economic Activities.
+            <i
+              >2022 International Conference on ICT for Sustainability
+              (ICT4S)</i
+            >, 140-149. doi:10.1109/ICT4S55073.2022.00025</small
+          >
+        </section>
+
+        <section data-auto-animate>
+          <center>
+            <img src="figures/cradle.png" height="350em" />
+          </center>
+          <p>
+            Leontief modeling allows to easily trace the
+            <b>cradle-to-gate</b> impact for a sector
+          </p>
+        </section>
+
+        <section>
+          <h1>Limitations</h1>
+          1. Sector's classification (ISIC) 2. Semi-conductors industry not only
+          used by ICT, lack of detailed data (i.e. which mineral in which
+          product) 3. Now-casting 4. Impact normalization to monetary flows
+        </section>
+
+        <section>
+          <h1 class="r-fit-text">Thank you for your attention!</h1>
+
+          <!-- <p style="text-align: left">
+            More on incertitudes in digital services LCAs:
+          </p>
+          <p style="text-align: left">Human costs in digital services LCAs:</p> -->
+          <p style="text-align: right; margin-bottom: 0">Thibault SIMON</p>
+          <p style="text-align: right; margin-top: 0">
+            <a href="thibault.simon@orange.com">thibault.simon@orange.com</a>
+          </p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        slideNumber: "c/t",
+        hash: true,
+        center: false,
+        history: true,
+        plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
+        slideNumber: true,
+        autoAnimate: true,
+        autoAnimateEasing: "ease",
+        autoAnimateDuration: 1.0,
+        autoAnimateUnmatched: true,
+        transition: "slide",
+      });
+    </script>
+  </body>
+</html>
