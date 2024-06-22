@@ -5,6 +5,9 @@
 layout: home
 ---
 
+<!-- Generate PDF:
+decktape generic http://localhost:8000 pres.pdf --key=Space --chrome-path=/snap/bin/chromium --chrome-arg=--disable-web-security -->
+
 I am a PhD candidate working on software environmental footprint in the [Spirals](https://team.inria.fr/spirals/) team at Inria Lille and Orange Innovation in Rennes. I'm also a member of [Boavizta](https://boavizta.org/en). I am particularly interested in these subjects:
 
 - Green IT
@@ -14,7 +17,7 @@ I am a PhD candidate working on software environmental footprint in the [Spirals
 - Software engineering
 - Distributed systems
 
-Feel free to reach me at _contact[at]thibaultsimon[dot]fr_
+Feel free to reach me at _contact[at]thibaultsimon.fr_
 
 [Linkedin](https://www.linkedin.com/in/thibault-smn/)
 [Github](https://github.com/tiboSmn)
