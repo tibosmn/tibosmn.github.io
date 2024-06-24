@@ -26,7 +26,7 @@ Feel free to reach me at _contact[at]thibaultsimon.fr_
 
 ## Papers
 
-T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul, S. Rince, R. Rouvoy, **BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services**, in _HotCarbon'24_, 2024, Santa Cruz (Remotly) [[Paper](https://hal.science/hal-04621947v1)] 
+T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul, S. Rince, R. Rouvoy, **BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services**, in _HotCarbon'24_, 2024, Santa Cruz (Remotly) [[Paper](https://hal.science/hal-04621947v1)] [[Code](https://github.com/Boavizta/boaviztapi)]
 
 E. Guégain, T. Simon, A. Rahier, and R. Rouvoy, **Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2024, Stockhlom [[Paper](https://hal.science/hal-04532041/)]
 
