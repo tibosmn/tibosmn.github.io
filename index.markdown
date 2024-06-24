@@ -32,7 +32,7 @@ T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Imp
 
 ## Talks
 
-**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at [_The True Cost of ICT: From Materiality to Techno-Solutionism_](https://ict4s24-tcict.github.io), 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)]
+**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at [_The True Cost of ICT: From Materiality to Techno-Solutionism_](https://ict4s24-tcict.github.io), 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)] [[Slides](presentations/tcit/index.html))]
 
 **Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the [_European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_](https://esslab-2024.sciencesconf.org/program), 2024, Darmstadt (Germany) [[Slides](presentations/esslab_seminar/index.html)]
 
