@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>T. Simon</title>
+
+    <!-- <link rel="stylesheet" href="dist/reset.css" /> -->
+    <link rel="stylesheet" href="../revealjs/reveal.css" />
+    <link rel="stylesheet" href="../revealjs/theme.css" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link rel="stylesheet" href="plugin/highlight/monokai.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section style="text-align: left">
+          <h1 style="line-height: normal">BoaviztAPI</h1>
+          <h2>
+            A Bottom-Up Model to Assess the Environmental Impacts of Cloud
+            Services
+          </h2>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <div style="display: flex">
+            <div style="width: 50%; text-align: left">
+              <p style="margin: 0.25em; margin-bottom: 1em">
+                <u>Thibault Simon</u>
+              </p>
+              <p style="margin: 0.25em">David Ekchajzer</p>
+              <p style="margin: 0.25em">Adrien Berthelot</p>
+              <p style="margin: 0.25em">Eric Fourboul</p>
+              <p style="margin: 0.25em">Samuel Rincé</p>
+              <p style="margin: 0.25em">Romain Rouvoy</p>
+              <!-- <p style="color: #131516; font-size: 2em">
+                Thibault Simon, David Ekchajzer, Adrien Berthelot, Eric
+                Fourboul, Samuel Rincé, Romain Rouvoy
+              </p> -->
+              <!-- <p style="margin-bottom: 0.1em">
+                <img src="../logos/github-mark.svg" height="25em" />
+                <a href="https://github.com/tibosmn">tibosmn</a>
+              </p>
+              <p style="margin-top: 0.5em">
+                <img src="../logos/linkedin.png" height="25em" />
+                <a href="https://www.linkedin.com/in/thibault-smn/"
+                  >thibault-smn</a
+                >
+              </p> -->
+            </div>
+            <div style="width: 100%; text-align: right; align-self: flex-end">
+              <img src="../logos/logo.svg" height="75em" />
+              <img
+                src="../logos/inr_logo_rouge.svg"
+                height="35em"
+                style="margin-left: 1em"
+              />
+              <!-- <img
+              src="../logos/logo_cnrs.svg"
+              height="35em"
+              style="margin-left: 1em"
+            />
+            <img
+              src="../logos/logo_SPIRALS.svg"
+              height="35em"
+              style="margin-left: 1em"
+            /> -->
+              <!-- <img
+                src="../logos/logo_ulille.png"
+                height="55em"
+                style="margin-left: 1em"
+              /> -->
+              <img
+                src="../logos/boavizta.svg"
+                height="35em"
+                style="margin-left: 1em"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section data-auto-animate>
+          <h1>ICT's carbon footprint</h1>
+          <!-- <h1>The ICT's sector growth</h1> -->
+          <div style="display: flex">
+            <div style="width: 100%; height: 100%">
+              <img src="figures/ipcc_path.png" height="350em" />
+              <p>The global objectives</p>
+            </div>
+            <div
+              class="fragment"
+              style="width: 100%; display: inline-block; align-self: flex-end"
+            >
+              <img src="figures/freitag_projection.png" width="450em" />
+
+              <br />
+              <br />
+              <br />
+              <p>The ICT trajectories</p>
+            </div>
+          </div>
+          <div style="display: flex">
+            <div style="width: 100%"></div>
+            <div style="width: 100%"></div>
+          </div>
+          <aside>
+            <i>Sources:</i>
+            Figure SPM.4. IPCC, 2022:
+            <a
+              href="https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf"
+              >Summary for Policymakers</a
+            >
+            and C. Freitag <i>et al.</i>, "The real climate and transformative
+            impact of ICT: A critique of estimates, trends, and regulations",
+            <i>Patterns</i>, vol. 2, no. 9, p. 100340, Sep. 2021.
+          </aside>
+        </section>
+
+        <section data-auto-animate>
+          <h1>ICT's mineral footprint</h1>
+          <center>
+            <img src="figures/truck.png" height="350em" />
+
+            <p>
+              <i
+                >« Mineral extraction has contributed to environmental
+                degradation, population displacement, violent conﬂicts and human
+                rights violations » <sup>1</sup></i
+              >
+            </p>
+
+            <aside>
+              [1]
+              <a
+                href="https://www.undp.org/publications/mapping-mining-sdgs-atlas"
+                ><i>Mapping Mining to the SDGs: An Atlas</i>, UN, 2016</a
+              >
+            </aside>
+          </center>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Embodied emissions</h1>
+          <img src="figures/dc.avif" height="400em" />
+          <center style="font-size: 1.1em">
+            <a
+              href="https://www.oregonlive.com/silicon-forest/2022/12/googles-water-use-is-soaring-in-the-dalles-records-show-with-two-more-data-centers-to-come.html"
+              >Source</a
+            >
+          </center>
+          <p>
+            <i
+              >« Reducing energy consumption alone fails to reduce carbon
+              emissions » <sup>1</sup></i
+            >
+          </p>
+          <aside>
+            <aside>
+              [1] U. Gupta <i>et al.</i>, "Chasing Carbon: The Elusive
+              Environmental Footprint of Computing.", <i>IEEE Micro</i> 42, 4
+              (July-Aug. 2022), 37-47., Aug. 2022.
+            </aside>
+          </aside>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Different accounting permiters</h1>
+          <h2 style="margin-top: 1em">hindering meaningful comparisons</h2>
+
+          <img src="figures/cloud.png" height="450em" />
+        </section>
+
+        <section data-auto-animate>
+          <h1>Our approach</h1>
+          <section data-auto-animate>
+            <img src="figures/bottom_up.svg" height="450em" />
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex">
+              <div style="width: 100%; text-align: left; position: relative">
+                <img src="figures/bottom_up.svg" width="450em" />
+                <div
+                  style="
+                    position: absolute;
+                    width: 18em;
+                    height: 2em;
+                    border-radius: 40px;
+                    border: 0.5em solid #89cff0;
+                    left: 0em;
+                    top: 22em;
+                  "
+                ></div>
+              </div>
+              <div style="width: 100%">
+                <!-- <h2>Components</h2> -->
+                <h2>Embodied</h2>
+                <img src="figures/cpu.png" />
+                <div class="fragment">
+                  <h2 style="margin-top: 1em">Usage</h2>
+                  <img src="figures/cpu_power.png" height="45em" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex">
+              <div style="width: 100%; text-align: left; position: relative">
+                <img src="figures/bottom_up.svg" width="450em" />
+                <div
+                  style="
+                    position: absolute;
+                    width: 16em;
+                    height: 2em;
+                    border-radius: 40px;
+                    border: 0.5em solid #89cff0;
+                    left: 1em;
+                    top: 16em;
+                  "
+                ></div>
+              </div>
+              <div style="width: 100%">
+                <!-- <h2>Components</h2> -->
+                <h2>Embodied</h2>
+                <img src="figures/server_emb.png" height="45em" />
+                <div class="fragment">
+                  <h2 style="margin-top: 1em">Usage</h2>
+                  <img src="figures/server_power.png" height="75em" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex">
+              <div style="width: 100%; text-align: left; position: relative">
+                <img src="figures/bottom_up.svg" width="450em" />
+                <div
+                  style="
+                    position: absolute;
+                    width: 8em;
+                    height: 4em;
+                    border-radius: 40px;
+                    border: 0.5em solid #89cff0;
+                    left: 17.5em;
+                    top: 15em;
+                  "
+                ></div>
+              </div>
+              <div style="width: 100%">
+                <!-- <h2>Components</h2> -->
+                <h2>Embodied</h2>
+                <img src="figures/platform_env.png" height="45em" />
+                <div class="fragment">
+                  <h2 style="margin-top: 1em">Usage</h2>
+                  <img src="figures/platform_usage.png" height="45em" />
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section data-auto-animate>
+            <div style="display: flex">
+              <div style="width: 100%; text-align: left; position: relative">
+                <img src="figures/bottom_up.svg" width="450em" />
+                <div
+                  style="
+                    position: absolute;
+                    width: 16em;
+                    height: 4em;
+                    border-radius: 40px;
+                    border: 0.5em solid #89cff0;
+                    left: 1em;
+                    top: 1em;
+                  "
+                ></div>
+              </div>
+              <div style="width: 100%">
+                <!-- <h2>Components</h2> -->
+                <h2>Total</h2>
+                <img
+                  src="figures/cloud_instance.png"
+                  height="80em"
+                  style="margin-top: 2em"
+                />
+                <!-- <div class="fragment">
+                  <h2 style="margin-top: 1em">Usage</h2>
+                  <img src="figures/platform_usage.png" height="45em" />
+                </div> -->
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Results</h1>
+          <h2>Cloud instance</h2>
+          <img src="figures/results.svg" />
+          <p>
+            <i
+              >GWP impact of a cloud instance hosted in France with 4 vCPUs, 8
+              GB of vRAM and 80 GB of SSD storage used for a year</i
+            >
+          </p>
+        </section>
+
+        <section data-auto-animate>
+          <h1>Conclusion</h1>
+
+          <div style="display: flex">
+            <div style="width: 100%; text-align: left">
+              <p>A bottom-up approach to find actionable lever</p>
+              <p>
+                Considering the life cycle of resources over three categories
+              </p>
+              <p>An open-source methodology based on open-source data</p>
+
+              <p>
+                <i>Future work:</i> GPUs, infrastructure overhead, better
+                handling of uncertainties
+              </p>
+            </div>
+            <div
+              style="width: 100%"
+              class="fragment"
+              style="align-self: center"
+            >
+              <img src="../logos/boavizta.svg" width="80%" />
+              <p>You're welcome to join!</p>
+              <img src="./figures/qrcode.png" width="25%" />
+              <br />
+              <a href="https://boavizta.org/en/join"
+                >https://boavizta.org/en/join</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/reveal.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/markdown/markdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/notes/notes.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/highlight/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.3.1/plugin/math/math.min.js"></script>
+
+    <script>
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        slideNumber: "c/t",
+        hash: true,
+        center: false,
+        history: true,
+        plugins: [RevealMarkdown, RevealNotes, RevealHighlight],
+        slideNumber: true,
+        autoAnimate: true,
+        autoAnimateEasing: "ease",
+        autoAnimateDuration: 1.0,
+        autoAnimateUnmatched: true,
+        transition: "slide",
+      });
+    </script>
+  </body>
+</html>
