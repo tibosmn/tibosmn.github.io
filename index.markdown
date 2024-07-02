@@ -26,7 +26,7 @@ Feel free to reach me at _contact[at]thibaultsimon.fr_
 
 ## Papers
 
-T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul, S. Rince, R. Rouvoy, **BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services**, in _HotCarbon'24_, 2024, Santa Cruz (Remotly) [[Paper](https://hal.science/hal-04621947v1)] [[Slides](presentations/hotcarbon/index.html))] [[Code](https://github.com/Boavizta/boaviztapi)]
+T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul, S. Rince, R. Rouvoy, **BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services**, in _HotCarbon'24_, 2024, Santa Cruz (Remotly) [[Paper](https://hal.science/hal-04621947v1)] [[Slides](presentations/hotcarbon/index.html)] [[Code](https://github.com/Boavizta/boaviztapi)]
 
 E. Guégain, T. Simon, A. Rahier, and R. Rouvoy, **Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2024, Stockhlom [[Paper](https://hal.science/hal-04532041/)]
 
@@ -34,7 +34,7 @@ T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Imp
 
 ## Talks
 
-**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at [_The True Cost of ICT: From Materiality to Techno-Solutionism_](https://ict4s24-tcict.github.io), 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)] [[Slides](presentations/tcit/index.html))]
+**From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT’s Mineral Dependencies** at [_The True Cost of ICT: From Materiality to Techno-Solutionism_](https://ict4s24-tcict.github.io), 2024, Stockholm (Sweden) [[Abstract](assets/tcit_abstract.pdf)] [[Slides](presentations/tcit/index.html)]
 
 **Tackling the Environmental Impact of Digital Services: Challenges and solutions** at the [_European Sustainability Science Lab seminar (Sustainability science: what's in a name?)_](https://esslab-2024.sciencesconf.org/program), 2024, Darmstadt (Germany) [[Slides](presentations/esslab_seminar/index.html)]
 
