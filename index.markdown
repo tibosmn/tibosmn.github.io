@@ -8,14 +8,13 @@ layout: home
 <!-- Generate PDF:
 decktape generic http://localhost:8000 pres.pdf --key=Space --chrome-path=/snap/bin/chromium --chrome-arg=--disable-web-security -->
 
-I am a PhD candidate working on software environmental footprint in the [Spirals](https://team.inria.fr/spirals/) team at Inria Lille and Orange Innovation in Rennes. I'm also a member of [Boavizta](https://boavizta.org/en). I am particularly interested in these subjects:
+I am a PhD candidate working on software environmental footprint in the [Spirals](https://team.inria.fr/spirals/) team at Inria Lille and Orange Innovation in Rennes. I'm also an active member of [Boavizta](https://boavizta.org/en). I am particularly interested in these subjects:
 
 - Green IT
 - Sustainable ICT
-- Life-cycle Assessment
+- Life Cycle Assessment
 - Input/Output analysis
-- Software engineering
-- Distributed systems
+- Software architecture
 
 Feel free to reach me at _contact[at]thibaultsimon.fr_
 
@@ -28,9 +27,9 @@ Feel free to reach me at _contact[at]thibaultsimon.fr_
 
 S. Cerf, A. Luxey-Bitri, C. Quinton, R. Rouvoy, T. Simon, C. Truffert, **Untangling the Critical Minerals Knot: when ICT hits the Energy Transitions** _pre-print_, 2024 [[Paper](https://inria.hal.science/hal-04709741)]
 
-T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul, S. Rince, R. Rouvoy, **BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services**, in _HotCarbon'24_, 2024, Santa Cruz (Remotly) [[Paper](https://hal.science/hal-04621947v1)] [[Slides](presentations/hotcarbon/index.html)] [[Code](https://github.com/Boavizta/boaviztapi)]
+T. Simon, D. Ekchajzer, A. Berthelot, E. Fourboul, S. Rince, R. Rouvoy, **BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services**, in _HotCarbon'24_, 2024, Santa Cruz (Remotely) [[Paper](https://hal.science/hal-04621947v1)] [[Code](https://github.com/Boavizta/boaviztapi)] [[Slides](presentations/hotcarbon/index.html)]
 
-E. Guégain, T. Simon, A. Rahier, and R. Rouvoy, **Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2024, Stockhlom [[Paper](https://hal.science/hal-04532041/)]
+E. Guégain, T. Simon, A. Rahier, and R. Rouvoy, **Managing Uncertainties in ICT Services Life Cycle Assessment using Fuzzy Logic**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2024, Stockholm [[Paper](https://hal.science/hal-04532041/)]
 
 T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Impact of Software Life Cycle**, in _International Conference on Information and Communications Technology for Sustainability (ICT4S)_, 2023, Rennes [[Paper](https://hal.science/hal-04082263/)] [[Slides](assets/ict4s.pdf)] [[Code](https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact)]
 
