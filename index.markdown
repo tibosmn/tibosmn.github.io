@@ -8,12 +8,11 @@ layout: home
 <!-- Generate PDF:
 decktape generic http://localhost:8000 pres.pdf --key=Space --chrome-path=/snap/bin/chromium --chrome-arg=--disable-web-security -->
 
-I am a PhD candidate working on software environmental footprint in the [Spirals](https://team.inria.fr/spirals/) team at Inria Lille and Orange Innovation in Rennes. I'm also an active member of [Boavizta](https://boavizta.org/en). I am particularly interested in these subjects:
+I am a researcher working on ICT environmental footprint, and I am particularly interested in these subjects:
 
-- Green IT
 - Sustainable ICT
 - Life Cycle Assessment
-- Input/Output analysis
+- Environmentally Extended Input–Output Analysis
 - Software architecture
 
 Feel free to reach me at _contact[at]thibaultsimon.fr_
@@ -22,6 +21,8 @@ Feel free to reach me at _contact[at]thibaultsimon.fr_
 [Github](https://github.com/tiboSmn)
 
 # Research
+
+On the 6 December 2024, I successfully defended my PhD thesis intitulated *Software Ecodesign: Estimating and Reducing Software Environmental Footprint*. The manuscript is openly available [here](https://theses.hal.science/tel-04875910v1), and the defense replay (in French) [here](https://lone.earth/w/tWgURT22Lktz71YDBjvX4P).
 
 ## Papers
 
@@ -51,13 +52,13 @@ T. Simon, P. Rust, R. Rouvoy, and J. Penhoat, **Uncovering the Environmental Imp
 
 ## Work experiences
 
-- _Since 2021_: **Doctoral Researcher** @_Orange, Rennes_
+- _2021-2024_: **Doctoral Researcher** @_Orange, Rennes_
 - _2018-2021_: **Software Engineer Apprentice** @_Orange, Caen_
 - _April-June 2018_: **Software Engineer Intern** @_CGI, Rennes_
 
 ## Education
 
-- _Since 2021_: **PhD Candidate** in Computer Science @Université de Lille/Inria
+- _2021-2024_: **PhD Candidate** in Computer Science @_Université de Lille/Inria_
 - _2019-2021_: **Master's Degree of Business Administration**, head of class @_EM Normandie Business School_
 - _2018-2021_: **Software Engineering Diploma**, cyber-security and e-payments major in apprenticeship @_Ecole Nationale Supérieure d'Ingénieurs de Caen (ENSICAEN)_
 - _2016-2018_: **Higher National Diploma** in Computer Science @_IUT de Caen_
