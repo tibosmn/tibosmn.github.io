@@ -1,17 +1,29 @@
 title: Thibault Simon
-email: thibault.simon@orange.com
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   I am a PhD candidate working on software environmental footprint in the Spirals team at Inria Lille and Orange Innovation in Rennes.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://thibaultsimon.fr" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: tibo_smn
-github_username: tibosmn
+lang: en
+timezone: Europe/Paris
 
-favicon: "assets/favicon.png"
-# Build settings
-remote_theme: riggraz/no-style-please
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - vendor/
+  - node_modules/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .github/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
