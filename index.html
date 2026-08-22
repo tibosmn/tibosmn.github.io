@@ -21,39 +21,28 @@ home: true
       <b>as CTO of Resilio</b>, I notably lead the development of parametric
       LCA, bridging research-grade methodology with production-scale tooling. I
       have led teams and projects across both software engineering and LCA of
-      products and services,<br />uniting hands-on engineering and research to
+      products and services, uniting hands-on engineering and research to
       contribute to a <b>more sustainable future.</b>
     </p>
     <div class="home-actions" aria-label="Professional links">
-      <a
-        class="profile-link scholar"
-        href="https://scholar.google.com/citations?user=4KV7eDAAAAAJ&hl=fr"
-        ><svg viewBox="0 0 24 24" aria-hidden="true">
-          <path
-            d="M12 3 1.5 9 12 15l8.3-4.7V17H22V9L12 3Zm-6.4 8.9V17c0 1.6 2.9 3.5 6.4 3.5s6.4-1.9 6.4-3.5v-5.1L12 15.5l-6.4-3.6Z"
-          /></svg
-        >Google Scholar</a
-      ><a
-        class="profile-link linkedin"
-        href="https://fr.linkedin.com/in/thibault-smn"
-        ><svg viewBox="0 0 24 24" aria-hidden="true">
-          <path
-            d="M4.4 6.8A2.2 2.2 0 1 0 4.4 2.4a2.2 2.2 0 0 0 0 4.4ZM2.5 21.6h3.8V8.4H2.5v13.2ZM8.7 8.4h3.6v1.8h.1c.5-1 1.8-2.2 3.8-2.2 4 0 4.8 2.6 4.8 6v7.6h-3.8v-6.7c0-1.6 0-3.7-2.3-3.7-2.7 0-2.7 1.8-2.7 3.6v6.8H8.7V8.4Z"
-          /></svg
-        >LinkedIn</a
-      ><a class="profile-link github" href="https://github.com/tiboSmn"
-        ><svg viewBox="0 0 24 24" aria-hidden="true">
-          <path
-            d="M12 2.2a9.8 9.8 0 0 0-3.1 19.1c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 0 1.5 1 1.5 1 .9 1.5 2.4 1.1 3 .9.1-.7.4-1.1.7-1.4-2.2-.2-4.5-1.1-4.5-4.9 0-1.1.4-2 1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1 2.8-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.7-4.5 4.9.4.3.7.9.7 1.8v2.7c0 .3.2.6.7.5A9.8 9.8 0 0 0 12 2.2Z"
-          /></svg
-        >GitHub</a
-      ><a class="dark-button" href="mailto:contact@thibaultsimon.fr"
-        ><svg viewBox="0 0 24 24" aria-hidden="true">
-          <path
-            d="M3 5h18a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm0 2v.5l9 5.8 9-5.8V7H3Zm18 10V9.9l-8.5 5.5a1 1 0 0 1-1 0L3 9.9V17h18Z"
-          /></svg
-        >Connect</a
-      >
+      {% include profile-link.html class="scholar" label="Google Scholar"
+      url="https://scholar.google.com/citations?user=4KV7eDAAAAAJ&hl=fr"
+      path="M12 3 1.5 9 12 15l8.3-4.7V17H22V9L12 3Zm-6.4 8.9V17c0 1.6 2.9 3.5
+      6.4 3.5s6.4-1.9 6.4-3.5v-5.1L12 15.5l-6.4-3.6Z" %} {% include
+      profile-link.html class="linkedin" label="LinkedIn"
+      url="https://fr.linkedin.com/in/thibault-smn" path="M4.4 6.8A2.2 2.2 0 1 0
+      4.4 2.4a2.2 2.2 0 0 0 0 4.4ZM2.5 21.6h3.8V8.4H2.5v13.2ZM8.7
+      8.4h3.6v1.8h.1c.5-1 1.8-2.2 3.8-2.2 4 0 4.8 2.6 4.8 6v7.6h-3.8v-6.7c0-1.6
+      0-3.7-2.3-3.7-2.7 0-2.7 1.8-2.7 3.6v6.8H8.7V8.4Z" %} {% include
+      profile-link.html class="github" label="GitHub"
+      url="https://github.com/tiboSmn" path="M12 2.2a9.8 9.8 0 0 0-3.1
+      19.1c.5.1.7-.2.7-.5v-1.8c-2.8.6-3.4-1.2-3.4-1.2-.5-1.2-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6
+      1 0 1.5 1 1.5 1 .9 1.5 2.4 1.1 3
+      .9.1-.7.4-1.1.7-1.4-2.2-.2-4.5-1.1-4.5-4.9 0-1.1.4-2
+      1-2.7-.1-.2-.4-1.3.1-2.7 0 0 .8-.3 2.8 1a9.5 9.5 0 0 1 5.1 0c2-1.3 2.8-1
+      2.8-1 .5 1.4.2 2.5.1 2.7.6.7 1 1.6 1 2.7 0 3.8-2.3 4.7-4.5 4.9.4.3.7.9.7
+      1.8v2.7c0 .3.2.6.7.5A9.8 9.8 0 0 0 12 2.2Z" %}
+      <a class="dark-button" href="mailto:contact@thibaultsimon.fr">Connect</a>
     </div>
   </div>
   <div
@@ -116,98 +105,15 @@ home: true
   <div>
     <h2 class="dither-reveal">Experience</h2>
     <ul class="cv-list">
-      <li>
-        <img
-          src="{{ '/assets/logos/resilio-favicon.png' | relative_url }}"
-          alt="Resilio logo"
-        /><span
-          ><strong>CTO</strong>, Resilio <small>Since 1 July 2026</small></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/resilio-favicon.png' | relative_url }}"
-          alt="Resilio logo"
-        /><span
-          ><strong>Product Owner &amp; Research Engineer</strong>, Resilio
-          <small
-            >February 2025–July 2026 · Product Owner @ResilioDB</small
-          ></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/orange.png' | relative_url }}"
-          alt="Orange logo"
-        /><span
-          ><strong>Doctoral Researcher</strong>, Orange, Rennes
-          <small>2021–2024</small></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/orange.png' | relative_url }}"
-          alt="Orange logo"
-        /><span
-          ><strong>Software Engineer</strong>, Orange, Caen
-          <small>2018–2021</small></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/cgi.png' | relative_url }}"
-          alt="CGI logo"
-        /><span
-          ><strong>Software Engineer Intern</strong>, CGI, Rennes
-          <small>April–June 2018</small></span
-        >
-      </li>
+      {% for entry in site.data.career.experience %}{% include cv-entry.html
+      entry=entry %}{% endfor %}
     </ul>
   </div>
   <div>
     <h2 class="dither-reveal">Education</h2>
     <ul class="cv-list">
-      <li>
-        <span class="cv-logos"
-          ><img
-            src="{{ '/assets/logos/universite-lille.svg' | relative_url }}"
-            alt="Université de Lille logo" /><img
-            src="{{ '/assets/logos/inria.png' | relative_url }}"
-            alt="Inria logo" /></span
-        ><span
-          ><strong>PhD Candidate</strong> in Computer Science, Université de
-          Lille / Inria <small>2021–2024</small></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/em-normandie.jpg' | relative_url }}"
-          alt="EM Normandie logo"
-          title="EM Normandie logo by Lesaunier, CC BY-SA 4.0"
-        /><span
-          ><strong>Master's Degree of Business Administration</strong>, head of
-          class, EM Normandie Business School <small>2019–2021</small></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/ensicaen.svg' | relative_url }}"
-          alt="ENSICAEN logo"
-        /><span
-          ><strong>Software Engineering Diploma</strong>, cyber-security and
-          e-payments major in apprenticeship, Ecole Nationale Supérieure
-          d'Ingénieurs de Caen (ENSICAEN) <small>2018–2021</small></span
-        >
-      </li>
-      <li>
-        <img
-          src="{{ '/assets/logos/iut-grand-ouest-normandie.png' | relative_url }}"
-          alt="IUT Grand Ouest Normandie logo"
-        /><span
-          ><strong>Higher National Diploma</strong> in Computer Science, IUT de
-          Caen <small>2016–2018</small></span
-        >
-      </li>
+      {% for entry in site.data.career.education %}{% include cv-entry.html
+      entry=entry %}{% endfor %}
     </ul>
   </div>
 </section>
@@ -228,142 +134,28 @@ home: true
   <div class="publication-links">
     <a class="dark-button" href="https://theses.hal.science/tel-04875910v1"
       >Manuscript</a
-    ><a class="dark-button" href="https://lone.earth/w/tWgURT22Lktz71YDBjvX4P"
+    >
+    <a class="dark-button" href="https://lone.earth/w/tWgURT22Lktz71YDBjvX4P"
       >Defense recording</a
     >
   </div>
-  <p class="publication-transition">
-    Since successfully defending my PhD thesis on 6 December 2024, I have
-    continued to contribute to research projects that explore and help us
-    understand the world around us. Selected recent publications:
+  <p>
+    Since then, I have continued to contribute to research projects that explore
+    and help us understand the world around us. Selected recent publications:
   </p>
 </section>
 
 <section class="home-section publication-section">
+  {% assign publication_groups = site.data.publications | group_by: "year" %} {%
+  for group in publication_groups %}
   <div class="publication-year">
-    <h3>2026</h3>
+    <h3>{{ group.name }}</h3>
     <ol class="publication-list">
-      <li>
-        <h4 class="publication-title">
-          <a href="https://hotcarbon.org/assets/2026/paper-88.pdf"
-            >Unveiling the Cloud's Black Box: A Layered Model for Comparable
-            Environmental Impact Assessment</a
-          >
-        </h4>
-        <p class="publication-authors">
-          Reinbigler, M., <strong>Simon, T.</strong>, &amp; Aubet, L.
-        </p>
-        <p class="publication-venue">
-          HotCarbon 2026: Workshop on Sustainable Computer Systems.
-        </p>
-        <div class="publication-links">
-          <a
-            class="dark-button"
-            href="https://hotcarbon.org/assets/2026/paper-88.pdf"
-            >Paper</a
-          >
-        </div>
-      </li>
+      {% for publication in group.items %} {% include publication-entry.html
+      publication=publication %} {% endfor %}
     </ol>
   </div>
-  <div class="publication-year">
-    <h3>2024</h3>
-    <ol class="publication-list">
-      <li>
-        <h4 class="publication-title">
-          <a href="https://inria.hal.science/hal-04709741"
-            >Untangling the Critical Minerals Knot: When ICT Hits the Energy
-            Transitions</a
-          >
-        </h4>
-        <p class="publication-authors">
-          Cerf, S., Luxey-Bitri, A., Quinton, C., Rouvoy, R.,
-          <strong>Simon, T.</strong>, &amp; Truffert, C.
-        </p>
-        <p class="publication-venue">Preprint.</p>
-        <div class="publication-links">
-          <a class="dark-button" href="https://inria.hal.science/hal-04709741"
-            >Paper</a
-          >
-        </div>
-      </li>
-      <li>
-        <h4 class="publication-title">
-          <a href="https://hal.science/hal-04532041/"
-            >Managing Uncertainties in ICT Services Life Cycle Assessment Using
-            Fuzzy Logic</a
-          >
-        </h4>
-        <p class="publication-authors">
-          Guégain, E., <strong>Simon, T.</strong>, Rahier, A., &amp; Rouvoy, R.
-        </p>
-        <p class="publication-venue">
-          <em
-            >2024 10th International Conference on ICT for Sustainability
-            (ICT4S)</em
-          >, 204–214.
-        </p>
-        <div class="publication-links">
-          <a class="dark-button" href="https://hal.science/hal-04532041/"
-            >Paper</a
-          >
-        </div>
-      </li>
-      <li>
-        <h4 class="publication-title">
-          <a href="https://hal.science/hal-04621947v1"
-            >BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts
-            of Cloud Services</a
-          >
-        </h4>
-        <p class="publication-authors">
-          <strong>Simon, T.</strong>, Ekchajzer, D., Berthelot, A., Fourboul,
-          E., Rince, S., &amp; Rouvoy, R.
-        </p>
-        <p class="publication-venue">
-          <em>ACM SIGENERGY Energy Informatics Review, 4</em>(5), 84–90.
-        </p>
-        <div class="publication-links">
-          <a class="dark-button" href="https://hal.science/hal-04621947v1"
-            >Paper</a
-          >
-        </div>
-      </li>
-    </ol>
-  </div>
-  <div class="publication-year">
-    <h3>2023</h3>
-    <ol class="publication-list">
-      <li>
-        <h4 class="publication-title">
-          <a href="https://inria.hal.science/hal-04082263/"
-            >Uncovering the Environmental Impact of Software Life Cycle</a
-          >
-        </h4>
-        <p class="publication-authors">
-          <strong>Simon, T.</strong>, Rust, P., Rouvoy, R., &amp; Penhoat, J.
-        </p>
-        <p class="publication-venue">
-          <em
-            >2023 International Conference on ICT for Sustainability (ICT4S)</em
-          >, 176–187.
-        </p>
-        <div class="publication-links">
-          <a class="dark-button" href="https://inria.hal.science/hal-04082263/"
-            >Paper</a
-          ><a
-            class="dark-button"
-            href="{{ '/assets/ict4s.pdf' | relative_url }}"
-            >Slides</a
-          ><a
-            class="dark-button"
-            href="https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact"
-            >Code</a
-          >
-        </div>
-      </li>
-    </ol>
-  </div>
+  {% endfor %}
 </section>
 
 <div class="gradient-band gradient-band-three" aria-hidden="true"></div>
@@ -372,152 +164,17 @@ home: true
   <div class="section-heading">
     <div><h2 class="dither-reveal">Talks</h2></div>
   </div>
+  {% assign talk_groups = site.data.talks | group_by: "year" %} {% for group in
+  talk_groups %}
   <div class="publication-year">
-    <h3>2024</h3>
+    <h3>{{ group.name }}</h3>
     <ol class="publication-list">
-      <li>
-        <h4 class="publication-title">
-          From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT's
-          Mineral Dependencies
-        </h4>
-        <p class="publication-venue">
-          <em>The True Cost of ICT: From Materiality to Techno-Solutionism</em>,
-          Stockholm, Sweden.
-        </p>
-        <div class="publication-links">
-          <a
-            class="dark-button"
-            href="{{ '/presentations/tcit/' | relative_url }}"
-            >Slides</a
-          ><a
-            class="dark-button"
-            href="{{ '/assets/tcit_abstract.pdf' | relative_url }}"
-            >Abstract</a
-          >
-        </div>
-      </li>
-      <li>
-        <h4 class="publication-title">
-          Tackling the Environmental Impact of Digital Services: Challenges and
-          solutions
-        </h4>
-        <p class="publication-venue">
-          <em>European Sustainability Science Lab seminar</em>, Darmstadt,
-          Germany.
-        </p>
-        <div class="publication-links">
-          <a
-            class="dark-button"
-            href="{{ '/presentations/esslab_seminar/' | relative_url }}"
-            >Slides</a
-          >
-        </div>
-      </li>
-      <li>
-        <h4 class="publication-title">
-          Enhancing the Embodied Environmental Footprint Estimations of ICT:
-          Leveraging EEIO Techniques
-        </h4>
-        <p class="publication-venue"><em>Green Days</em>, Toulouse.</p>
-        <div class="publication-links">
-          <a
-            class="dark-button"
-            href="{{ '/assets/greendays_2024.pdf' | relative_url }}"
-            >Slides</a
-          >
-        </div>
-      </li>
+      {% for talk in group.items %} {% include talk-entry.html talk=talk %} {%
+      endfor %}
     </ol>
   </div>
-  <div class="publication-year">
-    <h3>2023</h3>
-    <ol class="publication-list">
-      <li>
-        <h4 class="publication-title">
-          Vers des applications à plus faible impact environnemental, Ma thèse
-          en trois minutes (Jury's prize)
-        </h4>
-        <div class="publication-links">
-          <a
-            class="dark-button"
-            href="https://www.linkedin.com/posts/thibault-smn_jai-gagn%C3%A9-hier-jai-pitch%C3%A9-ma-th%C3%A8se-activity-7136024363186761730-tctu"
-            >Video</a
-          >
-        </div>
-      </li>
-      <li>
-        <h4 class="publication-title">
-          Table ronde: La méthode Analyse de Cycle de Vie, un cadre d'évaluation
-          d'impact reconnu par tous et adaptée au numérique
-        </h4>
-        <p class="publication-venue"><em>GreenTech Forum</em>, Paris.</p>
-      </li>
-      <li>
-        <h4 class="publication-title">
-          Shaping the hidden environmental impacts of software
-        </h4>
-        <p class="publication-venue">
-          <em
-            >Green Software and Human Actors: design, code, and behavior -
-            community workshop</em
-          >, Rennes.
-        </p>
-        <div class="publication-links">
-          <a class="dark-button" href="{{ '/assets/gsha.pdf' | relative_url }}"
-            >Abstract</a
-          ><a
-            class="dark-button"
-            href="{{ '/assets/shaping_sw_hidden_impacts.pdf' | relative_url }}"
-            >Slides</a
-          >
-        </div>
-      </li>
-    </ol>
-  </div>
+  {% endfor %}
 </section>
 
 <div class="gradient-band gradient-band-four" aria-hidden="true"></div>
-
-<section class="palette-section" aria-label="Color palette examples">
-  <p class="eyebrow">Color palette</p>
-  <div class="palette-grid">
-    <div class="palette-swatch palette-night">
-      <span>Night<br />#070908</span>
-    </div>
-    <div class="palette-swatch palette-indigo">
-      <span>Indigo<br />#4E54BD</span>
-    </div>
-    <div class="palette-swatch palette-violet">
-      <span>Violet<br />#675BD7</span>
-    </div>
-    <div class="palette-swatch palette-lilac">
-      <span>Lilac<br />#8278ED</span>
-    </div>
-    <div class="palette-swatch palette-pink">
-      <span>Pink<br />#F09BDF</span>
-    </div>
-    <div class="palette-swatch palette-acid">
-      <span>Acid<br />#B8DB77</span>
-    </div>
-    <div class="palette-swatch palette-white">
-      <span>White<br />#FFFFFF</span>
-    </div>
-    <div class="palette-swatch palette-paper">
-      <span>Paper<br />#F8F9F3</span>
-    </div>
-    <div class="palette-swatch palette-ink">
-      <span>Ink<br />#1D1D1B</span>
-    </div>
-    <div class="palette-swatch palette-muted">
-      <span>Muted<br />#5C5C57</span>
-    </div>
-    <div class="palette-swatch palette-line">
-      <span>Line<br />18% ink</span>
-    </div>
-  </div>
-  <div class="palette-gradient">
-    <span>Night / indigo / violet / pink / acid</span>
-  </div>
-</section>
-
 <p class="page-horizon">End of the page. Start of the horizon.</p>
