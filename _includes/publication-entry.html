@@ -1,0 +1,11 @@
+<li>
+  <h4 class="publication-title">
+    <a
+      href="{% if include.publication.links[0].url contains '://' %}{{ include.publication.links[0].url }}{% else %}{{ include.publication.links[0].url | relative_url }}{% endif %}"
+      >{{ include.publication.title }}</a
+    >
+  </h4>
+  <p class="publication-authors">{{ include.publication.authors }}</p>
+  <p class="publication-venue">{{ include.publication.venue }}</p>
+  {% include action-links.html links=include.publication.links %}
+</li>

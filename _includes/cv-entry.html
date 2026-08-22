@@ -1,0 +1,28 @@
+<li>
+  {% if include.entry.logos %}
+  <span class="cv-logos">
+    {% for logo in include.entry.logos %}
+    <img src="{{ '/assets/logos/' | append: logo | relative_url }}" alt="" />
+    {% endfor %}
+  </span>
+  {% else %}
+  <img
+    src="{{ '/assets/logos/' | append: include.entry.logo | relative_url }}"
+    alt="{{ include.entry.organization }} logo"
+    {%
+    if
+    include.entry.logo_title
+    %}title="{{ include.entry.logo_title }}"
+    {%
+    endif
+    %}
+  />
+  {% endif %}
+  <span>
+    {% if include.entry.role %}
+    <strong>{{ include.entry.role }}</strong>, {{ include.entry.organization }}
+    {% else %} <strong>{{ include.entry.qualification }}</strong> {{
+    include.entry.subject }}, {{ include.entry.organization }} {% endif %}
+    <small>{{ include.entry.period }}</small>
+  </span>
+</li>

@@ -1,0 +1,7 @@
+<li>
+  <h4 class="publication-title">{{ include.talk.title }}</h4>
+  {% if include.talk.venue %}
+  <p class="publication-venue">{{ include.talk.venue }}</p>
+  {% endif %} {% if include.talk.links %}{% include action-links.html
+  links=include.talk.links %}{% endif %}
+</li>

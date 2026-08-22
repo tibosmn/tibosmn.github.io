@@ -1,0 +1,9 @@
+<div class="publication-links">
+  {% for link in include.links %}
+  <a
+    class="dark-button"
+    href="{% if link.url contains '://' %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}"
+    >{{ link.label }}</a
+  >
+  {% endfor %}
+</div>
