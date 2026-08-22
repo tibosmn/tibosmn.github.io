@@ -1,0 +1,46 @@
+experience:
+  - role: CTO
+    organization: Resilio
+    logo: resilio-favicon.png
+    period: Since 1 July 2026
+  - role: ResilioDB Product Owner & Research Engineer
+    organization: Resilio
+    logo: resilio-favicon.png
+    period: February 2025–July 2026
+  - role: Doctoral Researcher
+    organization: Orange, Rennes
+    logo: orange.png
+    period: 2021–2024
+  - role: Software Engineer
+    organization: Orange, Caen
+    logo: orange.png
+    period: 2018–2021
+  - role: Software Engineer Intern
+    organization: CGI, Rennes
+    logo: cgi.png
+    period: April–June 2018
+
+education:
+  - qualification: PhD Candidate
+    subject: in Computer Science
+    organization: Université de Lille / Inria
+    logos:
+      - universite-lille.svg
+      - inria.png
+    period: 2021–2024
+  - qualification: Master's Degree of Business Administration
+    subject: head of class
+    organization: EM Normandie Business School
+    logo: em-normandie.jpg
+    period: 2019–2021
+    logo_title: EM Normandie logo by Lesaunier, CC BY-SA 4.0
+  - qualification: Software Engineering Diploma
+    subject: cyber-security and e-payments major in apprenticeship
+    organization: Ecole Nationale Supérieure d'Ingénieurs de Caen (ENSICAEN)
+    logo: ensicaen.svg
+    period: 2018–2021
+  - qualification: Higher National Diploma
+    subject: in Computer Science
+    organization: IUT de Caen
+    logo: iut-grand-ouest-normandie.png
+    period: 2016–2018

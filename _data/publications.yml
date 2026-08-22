@@ -1,0 +1,37 @@
+- year: 2026
+  title: "Unveiling the Cloud's Black Box: A Layered Model for Comparable Environmental Impact Assessment"
+  authors: "Reinbigler, M., <strong>Simon, T.</strong>, &amp; Aubet, L."
+  venue: "HotCarbon 2026: Workshop on Sustainable Computer Systems."
+  links:
+    - label: Paper
+      url: https://hotcarbon.org/assets/2026/paper-88.pdf
+- year: 2024
+  title: "Untangling the Critical Minerals Knot: When ICT Hits the Energy Transitions"
+  authors: "Cerf, S., Luxey-Bitri, A., Quinton, C., Rouvoy, R., <strong>Simon, T.</strong>, &amp; Truffert, C."
+  venue: Preprint.
+  links:
+    - label: Paper
+      url: https://inria.hal.science/hal-04709741
+- year: 2024
+  title: "Managing Uncertainties in ICT Services Life Cycle Assessment Using Fuzzy Logic"
+  authors: "Guégain, E., <strong>Simon, T.</strong>, Rahier, A., &amp; Rouvoy, R."
+  venue: "<em>2024 10th International Conference on ICT for Sustainability (ICT4S)</em>, 204–214."
+  links:
+    - label: Paper
+      url: https://hal.science/hal-04532041/
+- year: 2024
+  title: "BoaviztAPI: A Bottom-Up Model to Assess the Environmental Impacts of Cloud Services"
+  authors: "<strong>Simon, T.</strong>, Ekchajzer, D., Berthelot, A., Fourboul, E., Rince, S., &amp; Rouvoy, R."
+  venue: "<em>ACM SIGENERGY Energy Informatics Review, 4</em>(5), 84–90."
+  links:
+    - label: Paper
+      url: https://hal.science/hal-04621947v1
+- year: 2023
+  title: "Uncovering the Environmental Impact of Software Life Cycle"
+  authors: "<strong>Simon, T.</strong>, Rust, P., Rouvoy, R., &amp; Penhoat, J."
+  venue: "<em>2023 International Conference on ICT for Sustainability (ICT4S)</em>, 176–187."
+  links:
+    - label: Paper
+      url: https://inria.hal.science/hal-04082263/
+    - label: Code
+      url: https://github.com/Orange-OpenSource/SoftwareLifecycleEnvImpact

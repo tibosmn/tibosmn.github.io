@@ -1,0 +1,34 @@
+- year: 2024
+  title: "From Bottom-Up to Top-Down: Rethinking Approaches to Assessing ICT's Mineral Dependencies"
+  venue: "<em>The True Cost of ICT: From Materiality to Techno-Solutionism</em>, Stockholm, Sweden."
+  links:
+    - label: Slides
+      url: /presentations/tcit/
+    - label: Abstract
+      url: https://inria.hal.science/hal-04709741/document
+- year: 2024
+  title: "Tackling the Environmental Impact of Digital Services: Challenges and solutions"
+  venue: "<em>European Sustainability Science Lab seminar</em>, Darmstadt, Germany."
+  links:
+    - label: Slides
+      url: /presentations/esslab_seminar/
+- year: 2024
+  title: "Enhancing the Embodied Environmental Footprint Estimations of ICT: Leveraging EEIO Techniques"
+  venue: "<em>Green Days</em>, Toulouse."
+  links:
+    - label: Slides
+      url: /assets/greendays_2024.pdf
+- year: 2023
+  title: "Vers des applications à plus faible impact environnemental, Ma thèse en trois minutes (Jury's prize)"
+  links:
+    - label: Video
+      url: https://www.linkedin.com/posts/thibault-smn_jai-gagn%C3%A9-hier-jai-pitch%C3%A9-ma-thèse-activity-7136024363186761730-tctu
+- year: 2023
+  title: "Table ronde: La méthode Analyse de Cycle de Vie, un cadre d'évaluation d'impact reconnu par tous et adaptée au numérique"
+  venue: "<em>GreenTech Forum</em>, Paris."
+- year: 2023
+  title: "Shaping the hidden environmental impacts of software"
+  venue: "<em>Green Software and Human Actors: design, code, and behavior - community workshop</em>, Rennes."
+  links:
+    - label: Abstract
+      url: /assets/gsha.pdf
