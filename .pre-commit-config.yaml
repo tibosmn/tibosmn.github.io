@@ -3,9 +3,9 @@ repos:
     rev: v6.0.0
     hooks:
       - id: end-of-file-fixer
-        files: '^(\.pre-commit-config\.yaml|_config\.yml|index\.html|_layouts/.*\.html|assets/(css|js)/.*)$'
+        files: '^(\.pre-commit-config\.yaml|_config\.yml|index\.html|_layouts/.*\.html|_includes/.*\.html|_data/.*\.yml|assets/(css|js)/.*)$'
       - id: trailing-whitespace
-        files: '^(\.pre-commit-config\.yaml|_config\.yml|index\.html|_layouts/.*\.html|assets/(css|js)/.*)$'
+        files: '^(\.pre-commit-config\.yaml|_config\.yml|index\.html|_layouts/.*\.html|_includes/.*\.html|_data/.*\.yml|assets/(css|js)/.*)$'
       - id: check-yaml
         files: '^(\.pre-commit-config\.yaml|_config\.yml)$'
 
@@ -16,4 +16,4 @@ repos:
         additional_dependencies:
           - prettier@3.1.0
           - "@shopify/prettier-plugin-liquid@1.11.0"
-        files: '^(\.pre-commit-config\.yaml|_config\.yml|index\.html|_layouts/.*\.html|assets/(css|js)/.*)$'
+        files: '^(\.pre-commit-config\.yaml|_config\.yml|index\.html|_layouts/.*\.html|_data/.*\.yml|assets/(css|js)/.*)$'
